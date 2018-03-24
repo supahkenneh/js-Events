@@ -90,3 +90,9 @@ function randomQuote(){
 //9. Unlock the Secret to Financial Freedom
 /*Create an event listener that will show and hide the message when clicking on the button.
 */
+
+showHide.addEventListener('click', revealSecret);
+
+function revealSecret(){
+  showmoney.style.display = 'block';
+}
